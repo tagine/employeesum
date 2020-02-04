@@ -47,28 +47,28 @@
 // It is recommended that you start with a directory structure that looks like this:
 
 // ```
-// lib/           // classes and helper code
-// output/        // rendered output
-// templates/     // HTML template(s)
-// test/          // jest tests
-//   Employee.test.js
-//   Engineer.test.js
-//   Intern.test.js
-//   Manager.test.js
-// app.js         // Runs the application
+// -[x] lib/           // classes and helper code
+// -[x] output/        // rendered output
+// -[ ] templates/     // HTML template(s)
+// -[x] test/          // jest tests
+//  -[x] Employee.test.js
+//  -[x] Engineer.test.js
+//  -[x] Intern.test.js
+//   -[x] Manager.test.js
+// -[x] app.js         // Runs the application
 // ```
 
 // ### Hints
 
 // * Create multiple HTML templates for each type of user. For example, you could use the following templates:
 
-//   * `main.html`
+//   -[x] `main.html` - 
 
-//   * `engineer.html`
+//   -[x] `engineer.html`
   
-//   * `intern.html`
+//   -[x] `intern.html`
   
-//   * `manager.html`
+//   -[x] `manager.html`
 
 // * You will want to make your methods as pure as possible. This means try to make your methods simple so that they are easier to test.
 
