@@ -1,0 +1,72 @@
+/* FLEXBOX FLEXBOX NANANANAH NANANANAH */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: wrap ;
+};
+
+.row {
+    /* display: block; */
+    padding: 10px;
+    margin: 10px;
+}
+
+#header {
+    display: inline-block;
+    font-weight: bolder;
+    color: white;
+    background-color: slategray;    
+}
+
+body {
+    display: flex; /* or inline-flex */
+    background-color: black;
+}
+
+.empCard {
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+    background-color: orchid;
+    border: 1px dashed black;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    padding-top: 60px;
+    background-color: orchid;
+}
+
+h1 {
+    font-weight: bolder;
+    color: white;
+    background-color: slategray;    
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.3em;
+}
+
+h6 {
+    font-size: 1.2em;
+}
+
