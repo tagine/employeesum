@@ -1,14 +1,15 @@
 /* FLEXBOX FLEXBOX NANANANAH NANANANAH */
 
 * {
-    font-family: 'Open Sans', sans-serif;
-    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
     display: flex; /* or inline-flex */
     flex-direction: row;
     flex-wrap: wrap ;
+    padding: 20px;
+    justify-content: space-between;
 };
 
 .row {
@@ -22,9 +23,17 @@
     font-weight: bolder;
     color: white;
     background-color: slategray;    
+    order: 0;
+    padding: 10px;
+    margin: 10px;
 }
 
+.item {
+    order: 1; /* default is 0 */
+  }
+
 body {
+    font-family: 'Open Sans', sans-serif;
     display: flex; /* or inline-flex */
     background-color: black;
 }
